@@ -1,0 +1,18 @@
+<view class="login">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="boxform">
+       <view class="contentView">
+          <view class="textarea_title">新闻评论</view>
+              <view class="textarea_bg">
+                 <textarea bindinput="textareaInputCom" name="textareaInputCom" style="height:12em" maxlength="-1" />
+              </view>
+          </view> 
+        </view>
+    <view class="viewBtn">
+      <button type="swi" formType="submit" hover-class="other-button-hover"> 提交 </button>
+      <button type="swi" bindtap="returnBack" hover-class="other-button-hover">返回</button>
+    </view>
+  </form>
+   
+</view>
+      

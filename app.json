@@ -1,0 +1,49 @@
+{
+  "pages": [
+     "pages/index/index",
+     "pages/view/view",
+     "pages/myself/myself",
+     "pages/leavecomment/leavecomment",
+     "pages/leavecomment/commentsList/commentsList"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#00bbec",
+    "navigationBarTitleText": "新闻资讯",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#666666",
+    "selectedColor": "#00BFFF",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "iconPath": "images/5acd66b54b139.png",
+        "selectedIconPath": "images/indexlight.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "images/recomment.png",
+        "selectedIconPath": "images/recommentlight.png",
+        "text": "推荐",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "images/5acd66b592f65.png",
+        "selectedIconPath": "images/personallight.png",
+        "text": "我的",
+        "pagePath": "pages/myself/myself"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 15000,
+    "connectSocket": 30000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}
