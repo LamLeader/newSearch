@@ -4,7 +4,8 @@
      "pages/view/view",
      "pages/myself/myself",
      "pages/leavecomment/leavecomment",
-     "pages/leavecomment/commentsList/commentsList"
+     "pages/leavecomment/commentsList/commentsList",
+     "pages/myCollection/myCollection"
   ],
   "window": {
     "backgroundTextStyle": "dark",

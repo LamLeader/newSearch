@@ -1,5 +1,5 @@
-var util = require('../../../utils/util.js');
-var httpRequestUtil = require("../../../utils/network.js"); //require引入
+var util = require('../../utils/util.js');
+var httpRequestUtil = require("../../utils/network.js"); //require引入
 Page({
     data: {
       scrollHeight: 0,      //页面高度
@@ -87,7 +87,7 @@ Page({
         let that = this;
         wx.showLoading({title: '加载中...'});
         wx.request({
-          url: httpRequestUtil.webUrl + 'comment/queryCommentInfo.do',
+          url: httpRequestUtil.webUrl + 'news/queryNewsInfo.do',
             data: {
               pageNum: that.data.currentPage,
               pageSize:10,

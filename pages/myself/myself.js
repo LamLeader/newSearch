@@ -150,22 +150,18 @@ Page({
       }
     })
   },
-
   //我的收藏
   myCollection:function(){
-
     console.log("++++++++++++======myCollection=====+++++++++++++");
+    wx.navigateTo({
+      url: '../../../../myCollection/myCollection',
+    })
+  },
+  //我的评论
+  myComment:function(){
     wx.navigateTo({
       url: '../../../../leavecomment/commentsList/commentsList',
     })
-  },
-
-
-  //我的评论
-  myComment:function(){
-
-    console.log("++++++++++++======myComment=====+++++++++++++");
-
   }
 
 

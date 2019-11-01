@@ -18,11 +18,11 @@
                     style="height: {{scrollHeight}}px;" scroll-top="{{scrollTop}}" bindscroll="setCurrentYScroll">
                     <view  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active" wx:for="{{TianAPInewsList}}"
                         wx:key="{{index}}" data-index="{{index}}">
-                            <view bindtap="handerNavigator" data-url="{{item.newsUrl}}" class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                            <view bindtap="handerNavigator" data-url="{{item.url}}" class="weui-media-box__bd weui-media-box__bd_in-appmsg">
                                   <!--<view class="weui-media-box__info__meta">{{item.newsUrl}}</view>-->
                                 <view class="weui-media-box__info">
-                                     <view class="weui-media-box__desc">{{item.comment}}</view>
-                                     <view class="weui-media-box__info__meta">{{item.createDate}}</view>
+                                     <view class="weui-media-box__desc">新闻标题：{{item.title}}</view>
+                                     <view class="weui-media-box__info__meta">收藏时间:{{item.createDate}}</view>
                                 </view>
                             </view>
                            
