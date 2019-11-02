@@ -25,7 +25,7 @@ Page({
         this.setData({
             scrollTop: 0,
             TianAPInewsList: [],
-            currentPage: 1,
+            currentPage: 0,
             scrollHeight: 0
         });
     },
